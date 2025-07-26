@@ -63,7 +63,7 @@ const layoutIngredients = ingredients.map(item => {
     return subElementEl;
 });
 
-elementsEl.append(layoutIngredients);
+elementsEl.append(...layoutIngredients);
 
 
 
